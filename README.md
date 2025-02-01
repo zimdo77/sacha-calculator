@@ -6,4 +6,4 @@
 - Implement basic arithmetic operations with appropriate input handling, and error handling/edge cases.
 
 ## GitHub demo:
-<https://zimdo77.github.io/calculator>
+<https://zimdo77.github.io/sacha-calculator>
