@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="pink-styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="calculator">
+      <div>
+        <div class="heading">
+          <img src="./images/duck-family.png" height="80px" width="80px" id="duck"/>
+          <p>Sacha's Calculator</p>
+        </div>
+        <div id="output-display"></div>
+      </div>
+      <div id="keypad">
+        <div id="ac" data-key="c">AC</div>
+        <div id="delete" data-key="Backspace">DEL</div>
+        <div id="plus-minus">+/-</div>
+        <div class="operator" data-key="/">÷</div>
+        <div class="digit" data-key="7">7</div>
+        <div class="digit" data-key="8">8</div>
+        <div class="digit" data-key="9">9</div>
+        <div class="operator" data-key="*">×</div>
+        <div class="digit" data-key="4">4</div>
+        <div class="digit" data-key="5">5</div>
+        <div class="digit" data-key="6">6</div>
+        <div class="operator" data-key="-">-</div>
+        <div class="digit" data-key="1">1</div>
+        <div class="digit" data-key="2">2</div>
+        <div class="digit" data-key="3">3</div>
+        <div class="operator" data-key="+">+</div>
+        <div class="digit" id="zero" data-key="0">0</div>
+        <div id="decimal" data-key=".">.</div>
+        <div id="equals" data-key="Enter">=</div>
+      </div>
+    </div>
+    <div class="text">
+      <p id="text-1">
+        You can also use your keyboard to trigger the calculator!
+      </p>
+    </div>
+  </body>
+</html>
